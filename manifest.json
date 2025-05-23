@@ -1,0 +1,16 @@
+
+{
+  "name": "Smart JavaScript Calculator",
+  "short_name": "JSCalc",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#0a84ff",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

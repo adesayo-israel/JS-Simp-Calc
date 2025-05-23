@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f2f2f2;
+  color: #000;
+  transition: all 0.3s ease;
+}
+body.dark {
+  background: #121212;
+  color: #fff;
+}
+#display {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background: #fff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+body.dark #display {
+  background: #333;
+  color: #fff;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 10px;
+}
+button {
+  height: 60px;
+  font-size: 18px;
+  transition: transform 0.1s ease;
+}
+button:active {
+  transform: scale(0.95);
+}
+#history {
+  margin-top: 20px;
+  font-size: 14px;
+  max-height: 150px;
+  overflow-y: auto;
+}
